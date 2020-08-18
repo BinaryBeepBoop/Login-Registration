@@ -1,0 +1,30 @@
+.form-style{
+    display: flex;
+    flex-direction: column;
+    width: 24%;
+
+    /* translating to center */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.txtPad{
+    padding:8px;
+    margin:4px;
+}
+.btn-style{
+    padding: 8px;
+    margin:4px;
+}
+
+@media(max-width: 912px){
+    .form-style{
+        width: 50%;
+    }
+}
+@media(max-width: 450px){
+    .form-style{
+        width: 70%;
+    }
+}
